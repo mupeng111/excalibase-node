@@ -16,6 +16,8 @@ jobs:
             context: ./probe
           - name: xray
             context: ./xray
+          - name: nezha
+            context: ./nezha
     steps:
       - uses: actions/checkout@v4
       - uses: docker/login-action@v3
